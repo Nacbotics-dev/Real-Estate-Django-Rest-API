@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-3a$2!^&5wiq2j_en$+4la#u(hlq29%fob^3=+6k07_*_qrf^zy'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
 
@@ -142,10 +142,10 @@ else:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME': 'd9h6vdfsb4fseo', 
-            'USER': 'ybnpjfqyudoxqo', 
-            'PASSWORD': '2d9e63c0107ebfe8ebf1a4c42d16705b4c358b0bbbe19ae90f174ba9cf5514e7',
-            'HOST': 'postgres://ybnpjfqyudoxqo:2d9e63c0107ebfe8ebf1a4c42d16705b4c358b0bbbe19ae90f174ba9cf5514e7@ec2-3-224-7-166.compute-1.amazonaws.com:5432/d9h6vdfsb4fseo', 
+            'NAME': 'd53h30fmqe89lb', 
+            'USER': 'mqkzbxzgrlhzpk', 
+            'PASSWORD': 'c6e48092dc90256402d94467c03b37a789256fccd91682c994ca71fe510e4f50',
+            'HOST': 'postgres://mqkzbxzgrlhzpk:c6e48092dc90256402d94467c03b37a789256fccd91682c994ca71fe510e4f50@ec2-107-22-122-106.compute-1.amazonaws.com:5432/d53h30fmqe89lb', 
             'PORT': '5432',
         }
     }
